@@ -36,7 +36,7 @@ class kubs:
     ##
     
     def update_state(self,state):
-        self.state=state
+        self.state = state
         self.pos = state.homePos[self.kubs_id]
 
     def reset(self):
